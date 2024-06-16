@@ -1,0 +1,185 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 83, Failures: 19, Errors: 0, Skipped: 32, Time elapsed: 3,440.244 s <<< FAILURE! - in TestSuite
+setup(com.qa.testcases.ts001.TS001_TC001)  Time elapsed: 86.381 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: chrome not reachable 
+Host info: host: 'DESKTOP-HU52OQ2', ip: '192.168.56.1'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+
+setup(com.qa.testcases.ts001.TS001_TC002)  Time elapsed: 228.411 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f86b7c93009cca5fc37a9997fc9c183, get {url=https://magento.softwaretestingboard.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\razda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53097}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53097/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f86b7c93009cca5fc37a9997fc9c183
+Caused by: java.util.concurrent.TimeoutException
+
+TS001_TC004(com.qa.testcases.ts001.TS001_TC004)  Time elapsed: 27.493 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testcases.ts001.TS001_TC004.TS001_TC004(TS001_TC004.java:154)
+
+TS001_TC004(com.qa.testcases.ts001.TS001_TC004)  Time elapsed: 26.636 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testcases.ts001.TS001_TC004.TS001_TC004(TS001_TC004.java:154)
+
+TS001_TC004(com.qa.testcases.ts001.TS001_TC004)  Time elapsed: 27.73 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="firstname-error"]"}
+  (Session info: chrome=125.0.6422.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f26b0f7c3ec9f73cef7ca1664229b1f4, findElement {value=//*[@id="firstname-error"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\razda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53304/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f26b0f7c3ec9f73cef7ca1664229b1f4
+	at com.qa.testcases.ts001.TS001_TC004.TS001_TC004(TS001_TC004.java:118)
+
+TS001_TC004(com.qa.testcases.ts001.TS001_TC004)  Time elapsed: 26.757 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="firstname-error"]"}
+  (Session info: chrome=125.0.6422.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f26b0f7c3ec9f73cef7ca1664229b1f4, findElement {value=//*[@id="firstname-error"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\razda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53304/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f26b0f7c3ec9f73cef7ca1664229b1f4
+	at com.qa.testcases.ts001.TS001_TC004.TS001_TC004(TS001_TC004.java:118)
+
+TS001_TC004(com.qa.testcases.ts001.TS001_TC004)  Time elapsed: 27.598 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="firstname-error"]"}
+  (Session info: chrome=125.0.6422.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f26b0f7c3ec9f73cef7ca1664229b1f4, findElement {value=//*[@id="firstname-error"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\razda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53304}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53304/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f26b0f7c3ec9f73cef7ca1664229b1f4
+	at com.qa.testcases.ts001.TS001_TC004.TS001_TC004(TS001_TC004.java:118)
+
+TS001_TC005(com.qa.testcases.ts001.TS001_TC005)  Time elapsed: 0.493 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0edbb10ba8fe10a82b464c9480201327, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\razda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53417/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0edbb10ba8fe10a82b464c9480201327
+	at com.qa.testcases.ts001.TS001_TC005.TS001_TC005(TS001_TC005.java:26)
+
+TS001_TC005(com.qa.testcases.ts001.TS001_TC005)  Time elapsed: 0.465 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: failed to change window state to 'normal', current state is 'maximized'
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0edbb10ba8fe10a82b464c9480201327, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\razda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53417/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0edbb10ba8fe10a82b464c9480201327
+	at com.qa.testcases.ts001.TS001_TC005.TS001_TC005(TS001_TC005.java:26)
+
+TS002_TC001(com.qa.testcases.ts002.TS002_TC001)  Time elapsed: 4.468 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testcases.ts002.TS002_TC001.TS002_TC001(TS002_TC001.java:121)
+
+TS002_TC001(com.qa.testcases.ts002.TS002_TC001)  Time elapsed: 4.289 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testcases.ts002.TS002_TC001.TS002_TC001(TS002_TC001.java:121)
+
+TS002_TC001(com.qa.testcases.ts002.TS002_TC001)  Time elapsed: 5.452 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testcases.ts002.TS002_TC001.TS002_TC001(TS002_TC001.java:121)
+
+TS002_TC003(com.qa.testcases.ts002.TS002_TC003)  Time elapsed: 18.059 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testcases.ts002.TS002_TC003.TS002_TC003(TS002_TC003.java:74)
+
+TS002_TC003(com.qa.testcases.ts002.TS002_TC003)  Time elapsed: 11.374 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testcases.ts002.TS002_TC003.TS002_TC003(TS002_TC003.java:74)
+
+TS003_TC002(com.qa.testcases.ts003.TS003_TC002)  Time elapsed: 21.567 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testcases.ts003.TS003_TC002.TS003_TC002(TS003_TC002.java:78)
+
+TS004_TC004(com.qa.testcases.ts004.TS004_TC004)  Time elapsed: 129.601 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testcases.ts004.TS004_TC004.TS004_TC004(TS004_TC004.java:696)
+
+TS004_TC005(com.qa.testcases.ts004.TS004_TC005)  Time elapsed: 19.017 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false]
+	at com.qa.testcases.ts004.TS004_TC005.TS004_TC005(TS004_TC005.java:152)
+
+TS005_TC002(com.qa.testcases.ts005.TS005_TC002)  Time elapsed: 155.937 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="submit" title="Add to Cart" class="action tocart primary">...</button> is not clickable at point (139, 669). Other element would receive the click: <div class="columns">...</div>
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4296599977e075c8c82c36df4dae8664, clickElement {id=f.DDF9525A911FD78949F10DCA0983C5CE.d.8ABE174DE7951E7F4682BD77F1D1E7BD.e.365}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\razda\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54188/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4296599977e075c8c82c36df4dae8664)] -> xpath: //*[@id="maincontent"]/div[4]/div[1]/div[1]/div[3]/div/div/ol/li[1]/div/div/div[3]/div/div[1]/form/button]
+Session ID: 4296599977e075c8c82c36df4dae8664
+	at com.qa.testcases.ts005.TS005_TC002.TS005_TC002(TS005_TC002.java:518)
+
+TS005_TC004(com.qa.testcases.ts005.TS005_TC004)  Time elapsed: 105.889 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at com.qa.testcases.ts005.TS005_TC004.TS005_TC004(TS005_TC004.java:657)
+

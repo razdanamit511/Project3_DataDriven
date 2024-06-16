@@ -1,0 +1,890 @@
+# Created at 2024-06-16T17:07:03.471
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:210)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:385)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2024-06-16T17:07:04.289
+Unexpected IOException: 8,1,com.qa.testcases.ts004.TS004_TC002,Method_TearDown(com.qa.testcases.ts004.TS004_TC002),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [4309afb407a0804e7a375bd1576813b6\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59943}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59943/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4309afb407a0804e7a375bd1576813b6,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [4309afb407a0804e7a375bd1576813b6\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59943}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59943/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4309afb407a0804e7a375bd1576813b6,TS004_TC002>ReportUtil.Method_TearDown:99->CommonUtils.CaptureSS:19 \00BB NoSuchWindow,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [4309afb407a0804e7a375bd1576813b6\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59943}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59943/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4309afb407a0804e7a375bd1576813b6\000A
+
+
+# Created at 2024-06-16T17:07:04.289
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC002,Method_StartUp(com.qa.testcases.ts004.TS004_TC002),null,null,null
+
+
+# Created at 2024-06-16T17:07:04.289
+Unexpected IOException: 5,1,com.qa.testcases.ts004.TS004_TC002,TS004_TC002(com.qa.testcases.ts004.TS004_TC002),Sanity\002CRegression,null,null
+
+
+# Created at 2024-06-16T17:07:04.289
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC002,TS004_TC002(com.qa.testcases.ts004.TS004_TC002),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [4309afb407a0804e7a375bd1576813b6\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59943}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59943/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4309afb407a0804e7a375bd1576813b6,null
+
+
+# Created at 2024-06-16T17:07:04.289
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC002,Method_TearDown(com.qa.testcases.ts004.TS004_TC002),null,null,null
+
+
+# Created at 2024-06-16T17:07:04.289
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC002,tearDown(com.qa.testcases.ts004.TS004_TC002),null,null,null
+
+
+# Created at 2024-06-16T17:07:04.305
+Unexpected IOException with stream: Before class startted.....
+
+
+# Created at 2024-06-16T17:07:05.790
+Unexpected IOException with stream: Jun 16, 2024 5:07:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+
+
+# Created at 2024-06-16T17:07:06.662
+Unexpected IOException with stream: Method name :TS004_TC003
+
+
+# Created at 2024-06-16T17:07:06.664
+Unexpected IOException with stream: 1
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 2
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 3
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 4
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 5
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 6
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 7
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 8
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 9
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:06.736
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 9
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:06.752
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: before method started.....
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: Method name :TS004_TC003
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException with stream: Befoe Method done
+
+
+# Created at 2024-06-16T17:07:06.767
+Unexpected IOException: 5,1,com.qa.testcases.ts004.TS004_TC003,TS004_TC003(com.qa.testcases.ts004.TS004_TC003),Functional\002CSanity\002CRegression\002CSmoke,null,null
+
+
+# Created at 2024-06-16T17:07:06.783
+Unexpected IOException: 8,1,com.qa.testcases.ts004.TS004_TC003,TS004_TC003(com.qa.testcases.ts004.TS004_TC003),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [aa88cc083394e3355723e5bc44b789b3\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59964}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59964/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: aa88cc083394e3355723e5bc44b789b3,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [aa88cc083394e3355723e5bc44b789b3\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59964}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59964/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: aa88cc083394e3355723e5bc44b789b3,TS004_TC003.TS004_TC003:58 \00BB NoSuchWindow no such window: target window alread...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [aa88cc083394e3355723e5bc44b789b3\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59964}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59964/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: aa88cc083394e3355723e5bc44b789b3\000A\0009at com.qa.testcases.ts004.TS004_TC003.TS004_TC003(TS004_TC003.java:58)\000A
+
+
+# Created at 2024-06-16T17:07:06.783
+Unexpected IOException with stream: after method started.....
+
+
+# Created at 2024-06-16T17:07:06.783
+Unexpected IOException: 8,1,com.qa.testcases.ts004.TS004_TC003,Method_TearDown(com.qa.testcases.ts004.TS004_TC003),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [aa88cc083394e3355723e5bc44b789b3\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59964}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59964/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: aa88cc083394e3355723e5bc44b789b3,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [aa88cc083394e3355723e5bc44b789b3\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59964}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59964/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: aa88cc083394e3355723e5bc44b789b3,TS004_TC003>ReportUtil.Method_TearDown:99->CommonUtils.CaptureSS:19 \00BB NoSuchWindow,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [aa88cc083394e3355723e5bc44b789b3\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59964}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59964/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: aa88cc083394e3355723e5bc44b789b3\000A
+
+
+# Created at 2024-06-16T17:07:06.783
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC003,Method_StartUp(com.qa.testcases.ts004.TS004_TC003),null,null,null
+
+
+# Created at 2024-06-16T17:07:06.783
+Unexpected IOException: 5,1,com.qa.testcases.ts004.TS004_TC003,TS004_TC003(com.qa.testcases.ts004.TS004_TC003),Functional\002CSanity\002CRegression\002CSmoke,null,null
+
+
+# Created at 2024-06-16T17:07:06.783
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC003,TS004_TC003(com.qa.testcases.ts004.TS004_TC003),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [aa88cc083394e3355723e5bc44b789b3\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59964}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59964/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: aa88cc083394e3355723e5bc44b789b3,null
+
+
+# Created at 2024-06-16T17:07:06.783
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC003,Method_TearDown(com.qa.testcases.ts004.TS004_TC003),null,null,null
+
+
+# Created at 2024-06-16T17:07:06.799
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC003,tearDown(com.qa.testcases.ts004.TS004_TC003),null,null,null
+
+
+# Created at 2024-06-16T17:07:06.799
+Unexpected IOException with stream: Before class startted.....
+
+
+# Created at 2024-06-16T17:07:09.206
+Unexpected IOException with stream: Jun 16, 2024 5:07:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+
+
+# Created at 2024-06-16T17:07:09.272
+Unexpected IOException with stream: Method name :TS004_TC004
+
+
+# Created at 2024-06-16T17:07:09.274
+Unexpected IOException with stream: 1
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 2
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 3
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 4
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 5
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 6
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 7
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 8
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 9
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:09.349
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:09.364
+Unexpected IOException with stream: Cell type :NUMERIC
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 9
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:09.380
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException with stream: Cell type :NUMERIC
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException with stream: before method started.....
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException with stream: Method name :TS004_TC004
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException with stream: Befoe Method done
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException: 5,1,com.qa.testcases.ts004.TS004_TC004,TS004_TC004(com.qa.testcases.ts004.TS004_TC004),Functional\002CSanity,null,null
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException with stream: Email val :razdanamit51@gmail.com, Password val :Chericof1#, Search val :Jacket, Search count :11
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException: 8,1,com.qa.testcases.ts004.TS004_TC004,TS004_TC004(com.qa.testcases.ts004.TS004_TC004),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ad41212fab4789cb8e4f02ccaf159d84\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59976}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59976/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ad41212fab4789cb8e4f02ccaf159d84,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ad41212fab4789cb8e4f02ccaf159d84\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59976}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59976/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ad41212fab4789cb8e4f02ccaf159d84,TS004_TC004.TS004_TC004:59 \00BB NoSuchWindow no such window: target window alread...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ad41212fab4789cb8e4f02ccaf159d84\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59976}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59976/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ad41212fab4789cb8e4f02ccaf159d84\000A\0009at com.qa.testcases.ts004.TS004_TC004.TS004_TC004(TS004_TC004.java:59)\000A
+
+
+# Created at 2024-06-16T17:07:09.396
+Unexpected IOException with stream: after method started.....
+
+
+# Created at 2024-06-16T17:07:09.411
+Unexpected IOException: 8,1,com.qa.testcases.ts004.TS004_TC004,Method_TearDown(com.qa.testcases.ts004.TS004_TC004),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ad41212fab4789cb8e4f02ccaf159d84\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59976}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59976/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ad41212fab4789cb8e4f02ccaf159d84,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ad41212fab4789cb8e4f02ccaf159d84\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59976}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59976/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ad41212fab4789cb8e4f02ccaf159d84,TS004_TC004>ReportUtil.Method_TearDown:99->CommonUtils.CaptureSS:19 \00BB NoSuchWindow,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ad41212fab4789cb8e4f02ccaf159d84\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59976}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59976/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ad41212fab4789cb8e4f02ccaf159d84\000A
+
+
+# Created at 2024-06-16T17:07:09.411
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC004,Method_StartUp(com.qa.testcases.ts004.TS004_TC004),null,null,null
+
+
+# Created at 2024-06-16T17:07:09.411
+Unexpected IOException: 5,1,com.qa.testcases.ts004.TS004_TC004,TS004_TC004(com.qa.testcases.ts004.TS004_TC004),Functional\002CSanity,null,null
+
+
+# Created at 2024-06-16T17:07:09.411
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC004,TS004_TC004(com.qa.testcases.ts004.TS004_TC004),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [ad41212fab4789cb8e4f02ccaf159d84\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59976}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59976/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: ad41212fab4789cb8e4f02ccaf159d84,null
+
+
+# Created at 2024-06-16T17:07:09.411
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC004,Method_TearDown(com.qa.testcases.ts004.TS004_TC004),null,null,null
+
+
+# Created at 2024-06-16T17:07:09.411
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC004,tearDown(com.qa.testcases.ts004.TS004_TC004),null,null,null
+
+
+# Created at 2024-06-16T17:07:09.411
+Unexpected IOException with stream: Before class startted.....
+
+
+# Created at 2024-06-16T17:07:12.672
+Unexpected IOException with stream: Jun 16, 2024 5:07:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+
+
+# Created at 2024-06-16T17:07:17.082
+Unexpected IOException with stream: Method name :TS004_TC005
+
+
+# Created at 2024-06-16T17:07:17.082
+Unexpected IOException with stream: 1
+
+
+# Created at 2024-06-16T17:07:17.129
+Unexpected IOException with stream: 2
+
+
+# Created at 2024-06-16T17:07:17.129
+Unexpected IOException with stream: 3
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 4
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 5
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 6
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 7
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 8
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 9
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:17.145
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 9
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:17.160
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: Cell type :STRING
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: before method started.....
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: Method name :TS004_TC005
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException with stream: Befoe Method done
+
+
+# Created at 2024-06-16T17:07:17.176
+Unexpected IOException: 5,1,com.qa.testcases.ts004.TS004_TC005,TS004_TC005(com.qa.testcases.ts004.TS004_TC005),Sanity\002CSmoke,null,null
+
+
+# Created at 2024-06-16T17:07:17.191
+Unexpected IOException with stream: Email val :razdanamit51@gmail.com, Password val :Chericof1#, Search val :@3244
+
+
+# Created at 2024-06-16T17:07:17.191
+Unexpected IOException: 8,1,com.qa.testcases.ts004.TS004_TC005,TS004_TC005(com.qa.testcases.ts004.TS004_TC005),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [341ef782a5d317c6e4dcb12b92545eae\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59988}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59988/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 341ef782a5d317c6e4dcb12b92545eae,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [341ef782a5d317c6e4dcb12b92545eae\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59988}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59988/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 341ef782a5d317c6e4dcb12b92545eae,TS004_TC005.TS004_TC005:59 \00BB NoSuchWindow no such window: target window alread...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [341ef782a5d317c6e4dcb12b92545eae\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59988}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59988/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 341ef782a5d317c6e4dcb12b92545eae\000A\0009at com.qa.testcases.ts004.TS004_TC005.TS004_TC005(TS004_TC005.java:59)\000A
+
+
+# Created at 2024-06-16T17:07:17.191
+Unexpected IOException with stream: after method started.....
+
+
+# Created at 2024-06-16T17:07:17.191
+Unexpected IOException: 8,1,com.qa.testcases.ts004.TS004_TC005,Method_TearDown(com.qa.testcases.ts004.TS004_TC005),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [341ef782a5d317c6e4dcb12b92545eae\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59988}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59988/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 341ef782a5d317c6e4dcb12b92545eae,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [341ef782a5d317c6e4dcb12b92545eae\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59988}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59988/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 341ef782a5d317c6e4dcb12b92545eae,TS004_TC005>ReportUtil.Method_TearDown:99->CommonUtils.CaptureSS:19 \00BB NoSuchWindow,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [341ef782a5d317c6e4dcb12b92545eae\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59988}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59988/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 341ef782a5d317c6e4dcb12b92545eae\000A
+
+
+# Created at 2024-06-16T17:07:17.191
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC005,Method_StartUp(com.qa.testcases.ts004.TS004_TC005),null,null,null
+
+
+# Created at 2024-06-16T17:07:17.191
+Unexpected IOException: 5,1,com.qa.testcases.ts004.TS004_TC005,TS004_TC005(com.qa.testcases.ts004.TS004_TC005),Sanity\002CSmoke,null,null
+
+
+# Created at 2024-06-16T17:07:17.207
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC005,TS004_TC005(com.qa.testcases.ts004.TS004_TC005),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [341ef782a5d317c6e4dcb12b92545eae\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:59988}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:59988/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 341ef782a5d317c6e4dcb12b92545eae,null
+
+
+# Created at 2024-06-16T17:07:17.207
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC005,Method_TearDown(com.qa.testcases.ts004.TS004_TC005),null,null,null
+
+
+# Created at 2024-06-16T17:07:17.207
+Unexpected IOException: 9,1,com.qa.testcases.ts004.TS004_TC005,tearDown(com.qa.testcases.ts004.TS004_TC005),null,null,null
+
+
+# Created at 2024-06-16T17:07:17.426
+Unexpected IOException with stream: Before class startted.....
+
+
+# Created at 2024-06-16T17:07:21.687
+Unexpected IOException with stream: Jun 16, 2024 5:07:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+
+
+# Created at 2024-06-16T17:07:34.302
+Unexpected IOException with stream: Method name :TS005_TC001
+
+
+# Created at 2024-06-16T17:07:34.304
+Unexpected IOException with stream: 1
+
+
+# Created at 2024-06-16T17:07:34.363
+Unexpected IOException with stream: 2
+
+
+# Created at 2024-06-16T17:07:34.363
+Unexpected IOException with stream: 3
+
+
+# Created at 2024-06-16T17:07:34.363
+Unexpected IOException with stream: 4
+
+
+# Created at 2024-06-16T17:07:34.363
+Unexpected IOException with stream: 5
+
+
+# Created at 2024-06-16T17:07:34.363
+Unexpected IOException with stream: 6
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: 7
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: 8
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: 9
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: 10
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: 11
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: 12
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: Cell type :NUMERIC
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: 13
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: before method started.....
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: Method name :TS005_TC001
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException with stream: Befoe Method done
+
+
+# Created at 2024-06-16T17:07:34.379
+Unexpected IOException: 5,1,com.qa.testcases.ts005.TS005_TC001,TS005_TC001(com.qa.testcases.ts005.TS005_TC001),Regression\002CSmoke,null,null
+
+
+# Created at 2024-06-16T17:07:34.395
+Unexpected IOException: 8,1,com.qa.testcases.ts005.TS005_TC001,TS005_TC001(com.qa.testcases.ts005.TS005_TC001),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [dee873bc1e73ff594c05d4d97c8cb325\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60000}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60000/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: dee873bc1e73ff594c05d4d97c8cb325,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [dee873bc1e73ff594c05d4d97c8cb325\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60000}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60000/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: dee873bc1e73ff594c05d4d97c8cb325,TS005_TC001.TS005_TC001:63 \00BB NoSuchWindow no such window: target window alread...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [dee873bc1e73ff594c05d4d97c8cb325\002C maximizeCurrentWindow {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60000}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60000/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: dee873bc1e73ff594c05d4d97c8cb325\000A\0009at com.qa.testcases.ts005.TS005_TC001.TS005_TC001(TS005_TC001.java:63)\000A
+
+
+# Created at 2024-06-16T17:07:34.395
+Unexpected IOException with stream: after method started.....
+
+
+# Created at 2024-06-16T17:07:34.395
+Unexpected IOException: 8,1,com.qa.testcases.ts005.TS005_TC001,Method_TearDown(com.qa.testcases.ts005.TS005_TC001),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [dee873bc1e73ff594c05d4d97c8cb325\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60000}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60000/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: dee873bc1e73ff594c05d4d97c8cb325,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [dee873bc1e73ff594c05d4d97c8cb325\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60000}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60000/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: dee873bc1e73ff594c05d4d97c8cb325,TS005_TC001>ReportUtil.Method_TearDown:99->CommonUtils.CaptureSS:19 \00BB NoSuchWindow,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=125.0.6422.142)\000ABuild info: version: '4.20.0'\002C revision: '866c76ca80'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [dee873bc1e73ff594c05d4d97c8cb325\002C screenshot {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 125.0.6422.142\002C chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712...\002C userDataDir: C:\005CUsers\005Crazda\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60000}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60000/devtoo...\002C se:cdpVersion: 125.0.6422.142\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: dee873bc1e73ff594c05d4d97c8cb325\000A
+
+
+# Created at 2024-06-16T17:07:34.395
+Unexpected IOException: 9,1,com.qa.testcases.ts005.TS005_TC001,tearDown(com.qa.testcases.ts005.TS005_TC001),null,null,null
+
+
+# Created at 2024-06-16T17:07:34.395
+Unexpected IOException with stream: Before class startted.....
+
+
